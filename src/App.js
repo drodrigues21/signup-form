@@ -1,12 +1,13 @@
-import React from 'react';
-import './styles/App.css';
+import React from "react";
+import "./styles/App.css";
+import InfoSection from "./components/InfoSection";
+import FormSection from "./components/FormSection";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Signup Form</h1>
-      </header>
+      <InfoSection />
+      <FormSection />
     </div>
   );
 }

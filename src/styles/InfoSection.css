@@ -1,0 +1,20 @@
+.info-section-container {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 1.5em;
+  width: 400px;
+  max-width: 100%;
+}
+
+.info-section--header {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 34px;
+  margin-top: 0;
+}
+
+.info-section--text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
