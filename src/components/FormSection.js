@@ -1,7 +1,6 @@
 import React from "react";
 import BuyButton from "./BuyButton";
 import Form from "./Form";
-import "../styles/FormSection.css";
 
 const FormSection = () => {
   return (

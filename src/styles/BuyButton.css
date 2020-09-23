@@ -1,18 +1,16 @@
 .buy-button {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   text-align: center;
 }
 
 .buy-button a {
-  /* border: 2px solid blue; */
-
-  display: inline-block;
+  display: block;
   background-color: rgb(96, 85, 165);
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 300;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 5px;
   -webkit-box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.35);
   box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.35);
@@ -21,4 +19,11 @@
 
 .buy-button a span {
   font-weight: 700;
+}
+
+@media screen and (min-width: 900px) {
+  .buy-button a {
+    font-size: 17px;
+    padding: 1.5em;
+  }
 }
